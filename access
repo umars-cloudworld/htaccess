@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine On
+rewriterule ^wp-content/uploads/(.*)$ http://CLOUDFRONT_DOMAIN/$1 [r=301,nc]
+
+# Begin Wordpress Here
+# End Wordpress Here
+
+
+
+
